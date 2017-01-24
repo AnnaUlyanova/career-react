@@ -17,6 +17,7 @@ const Color = props => {
     </div>
   )
 
+
   const specifier = props.color ? 'uhnuhthuh' : 'uh'
   const linkText = props.gettingNewColor ? '' : `Get ${specifier} kuhluh`
 

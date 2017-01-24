@@ -26,8 +26,10 @@ var colors = [{
   name: 'Goldenrod'
 }]
 
-function getColors () {
-  return colors
+function getColors (callback) {
+  setTimeout(() => {
+    callback(null, colors)
+  }, 3000)
 }
 
 function getColor (callback) {
