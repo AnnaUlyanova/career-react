@@ -1,9 +1,19 @@
-import React from 'react'
+import React from 'react' // eslint-disable-line no-unused-vars
 
-const App = () => (
-  <div>
-    <h1>Career Timeline</h1>
-  </div>
-)
+import Nav from './Nav'
+import HomeContainer from '../containers/HomeContainer'
+import Footer from './Footer'
 
-export default App
+export default React.createClass({
+	render(){
+		return (
+				<div>
+					<div className="container">
+						<Nav />
+						<HomeContainer />
+					</div>
+					<Footer />
+				</div>
+		)
+	}
+})

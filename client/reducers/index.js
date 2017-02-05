@@ -1,25 +1,17 @@
 const INITIAL_STATE = {
-  color: '',
-  gettingNewColor: false
+	isAbout: true
 }
-
 const reducer = (state = INITIAL_STATE, action) => {
-  const newState = Object.assign({}, state)
+	const newState = Object.assign({}, state)
 
-  switch (action.type) {
-    case 'UPDATE_COLOR':
-      newState.color = action.color
-      newState.gettingNewColor = false
-      return newState
+	switch (action.type) {
+		case 'TOGGLE_HOMEPAGE':
+		newState.isAbout = !newState.isAbout
+			return newState
 
-    case 'REQUESTING_COLOR':
-      newState.color = ''
-      newState.gettingNewColor = true
-      return newState
-
-    default:
-      return state
-  }
+		default:
+		 return state
+	}
 }
 
 export default reducer
