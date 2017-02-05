@@ -6,7 +6,7 @@ export default React.createClass({
 			<div className="container">
 				<br />
 				<br />
-				<h1>Timeline</h1>
+				<h1>Career Timeline</h1>
 			</div>
 		)
 	}

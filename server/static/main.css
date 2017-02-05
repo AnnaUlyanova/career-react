@@ -1,3 +1,6 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
 .timeline {
     list-style: none;
     padding: 20px 0 20px;
@@ -156,6 +159,9 @@
 
 header a {
   color: #fff !important;
+  font-size: 1.4em;
+  letter-spacing: 1px;
+  padding-right: 20px;
 }
 
 header li a:hover {
@@ -167,21 +173,16 @@ footer {
   /*background: #091736;*/
   background: #0b3c5d;
   color: #fff;
-  height: 40px;
+  height: 50px;
   text-align: center;
   width: 100%;
 }
 
-footer li {
+footer .logo {
   display: inline-block;
-  color: #fff;
   padding-right: 20px;
   padding-left: 20px;
   padding-top: 10px;
-}
-
-footer a li:hover {
-  color: #5985e3;
 }
 
 @media (max-width: 767px) {
