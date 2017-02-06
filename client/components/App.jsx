@@ -10,7 +10,7 @@ export default React.createClass({
 				<div>
 					<div className="container">
 						<Nav />
-						<HomeContainer />
+						{this.props.children}
 					</div>
 					<Footer />
 				</div>

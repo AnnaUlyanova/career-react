@@ -24,7 +24,7 @@ export default React.createClass({
 
 								<li><Link to="/">Timeline</Link></li>
 								<li><Link to="/projects">Projects</Link></li>
-								<li><Link to="/downloadCV">Show CV</Link></li>
+								<li><Link to="/showCV">Download CV</Link></li>
 								<li><Link to="/contact">Contact</Link></li>
 
 							</ul>

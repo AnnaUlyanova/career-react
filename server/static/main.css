@@ -148,9 +148,19 @@ body {
   text-align: center;
 }
 
-#timeline-header, #projects-header {
+.page-header {
   text-align: center !important;
   padding-top: 30px;
+}
+
+.get-cv {
+  margin-top: 70px;
+  border-radius: 0px;
+  border-color: #0b3c5d;
+  font-size: 1.5em;
+}
+.get-cv:hover {
+  background: #328CC1;
 }
 
 #main-navigation {

@@ -4,9 +4,7 @@ export default React.createClass({
 	render(){
 		return (
 			<div className="container">
-				<br />
-				<br />
-				<h1>Career Timeline</h1>
+				<h1 className='page-header'>Career Timeline</h1>
 			</div>
 		)
 	}
